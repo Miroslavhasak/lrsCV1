@@ -1,6 +1,0 @@
-<depend>rclcpp</depend>
-<depend>sensor_msgs</depend>
-<depend>pcl_conversions</depend>
-<depend>pcl_conversions</depend>
-<!-- systemove: PCL sa zvycajne instaluje ako systemova kniznica -->
-

@@ -1,0 +1,118 @@
+[0.094s] Invoking command in '/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/LRS-FEI/nacitanie_mapy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader
+[0.330s] -- The C compiler identification is GNU 11.4.0
+[0.516s] -- The CXX compiler identification is GNU 11.4.0
+[0.547s] -- Detecting C compiler ABI info
+[0.817s] -- Detecting C compiler ABI info - done
+[0.836s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.836s] -- Detecting C compile features
+[0.836s] -- Detecting C compile features - done
+[0.836s] -- Detecting CXX compiler ABI info
+[1.079s] -- Detecting CXX compiler ABI info - done
+[1.104s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[1.104s] -- Detecting CXX compile features
+[1.104s] -- Detecting CXX compile features - done
+[1.105s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.533s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.695s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.775s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.861s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.869s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.900s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.923s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.954s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.073s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.074s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.356s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.423s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.526s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.540s] -- Looking for pthread.h
+[2.875s] -- Looking for pthread.h - found
+[2.878s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.274s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.278s] -- Found Threads: TRUE  
+[3.469s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.556s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[3.721s] -- Checking for module 'eigen3'
+[3.772s] --   Found eigen3, version 3.4.0
+[3.971s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.971s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.025s] -- Checking for module 'flann'
+[4.086s] --   Found flann, version 1.9.1
+[4.249s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[4.249s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[7.328s] -- Checking for module 'libusb-1.0'
+[7.400s] --   Found libusb-1.0, version 1.0.25
+[7.543s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[7.545s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.755s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.137s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[8.160s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.170s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.554s] -- Found Qhull version 8.0.2
+[8.909s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.255s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[9.255s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[9.255s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[9.255s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[9.256s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[9.261s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[9.265s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[9.267s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[9.269s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[9.271s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[9.272s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[9.273s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[9.275s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[9.276s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[9.278s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[9.279s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[9.280s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[9.282s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[9.283s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[9.285s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[9.289s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[9.289s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[9.291s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[9.293s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[9.295s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[9.298s] [33mCMake Warning (dev) at CMakeLists.txt:13 (find_package):
+[9.299s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[9.299s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[9.299s]   command to set the policy and suppress this warning.
+[9.299s] 
+[9.299s]   CMake variable PCL_ROOT is set to:
+[9.299s] 
+[9.299s]     /usr
+[9.299s] 
+[9.299s]   For compatibility, CMake is ignoring the variable.
+[9.299s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[9.299s] [0m
+[9.446s] -- Configuring done
+[9.506s] -- Generating done
+[9.537s] -- Build files have been written to: /home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader
+[9.576s] Invoked command in '/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/LRS-FEI/nacitanie_mapy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader
+[9.578s] Invoking command in '/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader -- -j5 -l5
+[9.819s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_map_loader_node.dir/src/pcd_map_loader.cpp.o[0m
+[33.364s] [100%] [32m[1mLinking CXX executable pcd_map_loader_node[0m
+[36.442s] [100%] Built target pcd_map_loader_node
+[36.493s] Invoked command in '/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader -- -j5 -l5
+[36.533s] Invoking command in '/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader
+[36.552s] -- Install configuration: ""
+[36.567s] -- Execute custom install script
+[36.570s] -- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/lib/pcd_map_loader/pcd_map_loader_node
+[36.600s] -- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/ament_index/resource_index/package_run_dependencies/pcd_map_loader
+[36.631s] -- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/ament_index/resource_index/parent_prefix_path/pcd_map_loader
+[36.660s] -- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/environment/ament_prefix_path.sh
+[36.675s] -- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/environment/ament_prefix_path.dsv
+[36.701s] -- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/environment/path.sh
+[36.731s] -- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/environment/path.dsv
+[36.776s] -- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/local_setup.bash
+[36.815s] -- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/local_setup.sh
+[36.853s] -- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/local_setup.zsh
+[36.883s] -- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/local_setup.dsv
+[36.909s] -- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/package.dsv
+[36.940s] -- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/ament_index/resource_index/packages/pcd_map_loader
+[36.984s] -- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/cmake/pcd_map_loaderConfig.cmake
+[37.004s] -- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/cmake/pcd_map_loaderConfig-version.cmake
+[37.029s] -- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/package.xml
+[37.065s] Invoked command in '/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader

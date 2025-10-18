@@ -1,0 +1,118 @@
+[0.092s] Invoking command in '/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/LRS-FEI/prehladavaci_algoritmus -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus
+[0.333s] -- The C compiler identification is GNU 11.4.0
+[0.526s] -- The CXX compiler identification is GNU 11.4.0
+[0.560s] -- Detecting C compiler ABI info
+[0.814s] -- Detecting C compiler ABI info - done
+[0.825s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.826s] -- Detecting C compile features
+[0.827s] -- Detecting C compile features - done
+[0.833s] -- Detecting CXX compiler ABI info
+[1.077s] -- Detecting CXX compiler ABI info - done
+[1.103s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[1.103s] -- Detecting CXX compile features
+[1.104s] -- Detecting CXX compile features - done
+[1.110s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.501s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.647s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.726s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.829s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.829s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.842s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.894s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.954s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.040s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.045s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.452s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.523s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.624s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.645s] -- Looking for pthread.h
+[2.900s] -- Looking for pthread.h - found
+[2.901s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.105s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.110s] -- Found Threads: TRUE  
+[3.225s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.313s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.354s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[3.436s] -- Checking for module 'eigen3'
+[3.489s] --   Found eigen3, version 3.4.0
+[3.658s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[3.658s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.734s] -- Checking for module 'flann'
+[3.801s] --   Found flann, version 1.9.1
+[3.966s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[3.966s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[7.106s] -- Checking for module 'libusb-1.0'
+[7.169s] --   Found libusb-1.0, version 1.0.25
+[7.339s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[7.342s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.630s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.168s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[8.187s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.209s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.696s] -- Found Qhull version 8.0.2
+[9.141s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.464s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[9.467s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[9.468s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[9.471s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[9.473s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[9.474s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[9.476s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[9.477s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[9.480s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[9.482s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[9.488s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[9.488s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[9.498s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[9.498s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[9.498s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[9.499s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[9.504s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[9.505s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[9.507s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[9.510s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[9.518s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[9.519s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[9.521s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[9.524s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[9.526s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[9.533s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[9.604s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[9.607s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.607s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[10.054s] -- Configuring done
+[10.184s] -- Generating done
+[10.214s] -- Build files have been written to: /home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus
+[10.299s] Invoked command in '/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/LRS-FEI/prehladavaci_algoritmus -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus
+[10.301s] Invoking command in '/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus -- -j5 -l5
+[10.544s] [ 33%] [32mBuilding CXX object CMakeFiles/planner_node.dir/src/voxel_map.cpp.o[0m
+[10.544s] [ 33%] [32mBuilding CXX object CMakeFiles/planner_node.dir/src/plannerAlgorithm.cpp.o[0m
+[10.545s] [ 50%] [32mBuilding CXX object CMakeFiles/drone_controller.dir/src/drone_controller.cpp.o[0m
+[10.546s] [ 66%] [32mBuilding CXX object CMakeFiles/planner_node.dir/src/a_star.cpp.o[0m
+[10.618s] [ 83%] [32m[1mLinking CXX executable drone_controller[0m
+[10.625s] [100%] [32m[1mLinking CXX executable planner_node[0m
+[11.153s] [100%] Built target drone_controller
+[11.841s] [100%] Built target planner_node
+[11.880s] Invoked command in '/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus -- -j5 -l5
+[11.927s] Invoking command in '/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus
+[11.959s] -- Install configuration: ""
+[11.960s] -- Execute custom install script
+[11.962s] -- Symlinking: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/lib/prehladavaci_algoritmus/planner_node
+[11.996s] -- Symlinking: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/lib/prehladavaci_algoritmus/drone_controller
+[12.016s] -- Symlinking: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/maps/map.pcd
+[12.048s] -- Symlinking: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/ament_index/resource_index/package_run_dependencies/prehladavaci_algoritmus
+[12.074s] -- Symlinking: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/ament_index/resource_index/parent_prefix_path/prehladavaci_algoritmus
+[12.100s] -- Symlinking: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/environment/ament_prefix_path.sh
+[12.119s] -- Symlinking: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/environment/ament_prefix_path.dsv
+[12.154s] -- Symlinking: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/environment/path.sh
+[12.182s] -- Symlinking: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/environment/path.dsv
+[12.203s] -- Symlinking: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/local_setup.bash
+[12.220s] -- Symlinking: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/local_setup.sh
+[12.258s] -- Symlinking: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/local_setup.zsh
+[12.288s] -- Symlinking: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/local_setup.dsv
+[12.321s] -- Symlinking: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/package.dsv
+[12.365s] -- Symlinking: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/ament_index/resource_index/packages/prehladavaci_algoritmus
+[12.425s] -- Symlinking: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/cmake/prehladavaci_algoritmusConfig.cmake
+[12.478s] -- Symlinking: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/cmake/prehladavaci_algoritmusConfig-version.cmake
+[12.513s] -- Symlinking: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/package.xml
+[12.550s] Invoked command in '/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus

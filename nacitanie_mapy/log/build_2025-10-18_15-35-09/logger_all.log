@@ -1,0 +1,105 @@
+[0.152s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.152s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=5, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7810432684f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x781043237f70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x781043237f70>>, mixin_verb=('build',))
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.376s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/LRS-FEI/nacitanie_mapy'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.402s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'pcd_map_loader'
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.426s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 316 installed packages in /opt/ros/humble
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'pcd_map_loader' build argument 'cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'pcd_map_loader' build argument 'cmake_target' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'pcd_map_loader' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'pcd_map_loader' build argument 'cmake_clean_cache' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'pcd_map_loader' build argument 'cmake_clean_first' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'pcd_map_loader' build argument 'cmake_force_configure' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'pcd_map_loader' build argument 'ament_cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'pcd_map_loader' build argument 'catkin_cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'pcd_map_loader' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.486s] DEBUG:colcon.colcon_core.verb:Building package 'pcd_map_loader' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader', 'merge_install': False, 'path': '/home/ubuntu/LRS-FEI/nacitanie_mapy', 'symlink_install': True, 'test_result_base': None}
+[0.486s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.491s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.494s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/LRS-FEI/nacitanie_mapy' with build type 'ament_cmake'
+[0.495s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/LRS-FEI/nacitanie_mapy'
+[0.510s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.511s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/LRS-FEI/nacitanie_mapy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader
+[10.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/LRS-FEI/nacitanie_mapy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader
+[10.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader -- -j5 -l5
+[36.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader -- -j5 -l5
+[37.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader
+[37.564s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcd_map_loader)
+[37.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader
+[37.600s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader' for CMake module files
+[37.601s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader' for CMake config files
+[37.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcd_map_loader', 'cmake_prefix_path')
+[37.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/hook/cmake_prefix_path.ps1'
+[37.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/hook/cmake_prefix_path.dsv'
+[37.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/hook/cmake_prefix_path.sh'
+[37.609s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/lib'
+[37.609s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/bin'
+[37.610s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/lib/pkgconfig/pcd_map_loader.pc'
+[37.610s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/lib/python3.10/site-packages'
+[37.610s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/bin'
+[37.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/package.ps1'
+[37.619s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/package.dsv'
+[37.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/package.sh'
+[37.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/package.bash'
+[37.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/package.zsh'
+[37.636s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/colcon-core/packages/pcd_map_loader)
+[37.637s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcd_map_loader)
+[37.637s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader' for CMake module files
+[37.637s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader' for CMake config files
+[37.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcd_map_loader', 'cmake_prefix_path')
+[37.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/hook/cmake_prefix_path.ps1'
+[37.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/hook/cmake_prefix_path.dsv'
+[37.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/hook/cmake_prefix_path.sh'
+[37.642s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/lib'
+[37.643s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/bin'
+[37.643s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/lib/pkgconfig/pcd_map_loader.pc'
+[37.645s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/lib/python3.10/site-packages'
+[37.646s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/bin'
+[37.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/package.ps1'
+[37.649s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/package.dsv'
+[37.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/package.sh'
+[37.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/package.bash'
+[37.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/package.zsh'
+[37.656s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/colcon-core/packages/pcd_map_loader)
+[37.657s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[37.659s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[37.659s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[37.660s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[37.708s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[37.708s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[37.708s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[37.788s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[37.789s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/local_setup.ps1'
+[37.796s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/_local_setup_util_ps1.py'
+[37.815s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/setup.ps1'
+[37.828s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/local_setup.sh'
+[37.840s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/_local_setup_util_sh.py'
+[37.848s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/setup.sh'
+[37.856s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/local_setup.bash'
+[37.863s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/setup.bash'
+[37.875s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/local_setup.zsh'
+[37.886s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/setup.zsh'

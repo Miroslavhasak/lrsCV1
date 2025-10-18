@@ -1,0 +1,8 @@
+source;share/prehladavaci_algoritmus/hook/cmake_prefix_path.ps1
+source;share/prehladavaci_algoritmus/hook/cmake_prefix_path.dsv
+source;share/prehladavaci_algoritmus/hook/cmake_prefix_path.sh
+source;share/prehladavaci_algoritmus/local_setup.bash
+source;share/prehladavaci_algoritmus/local_setup.dsv
+source;share/prehladavaci_algoritmus/local_setup.ps1
+source;share/prehladavaci_algoritmus/local_setup.sh
+source;share/prehladavaci_algoritmus/local_setup.zsh

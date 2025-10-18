@@ -1,0 +1,11 @@
+/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus/CMakeFiles/uninstall.dir
+/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus/CMakeFiles/prehladavaci_algoritmus_uninstall.dir
+/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus/CMakeFiles/planner_node.dir
+/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus/CMakeFiles/drone_controller.dir
+/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus/CMakeFiles/test.dir
+/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus/CMakeFiles/edit_cache.dir
+/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus/CMakeFiles/list_install_components.dir
+/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus/CMakeFiles/install.dir
+/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus/CMakeFiles/install/local.dir
+/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus/CMakeFiles/install/strip.dir

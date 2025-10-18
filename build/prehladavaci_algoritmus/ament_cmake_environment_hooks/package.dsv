@@ -1,0 +1,4 @@
+source;share/prehladavaci_algoritmus/local_setup.bash
+source;share/prehladavaci_algoritmus/local_setup.dsv
+source;share/prehladavaci_algoritmus/local_setup.sh
+source;share/prehladavaci_algoritmus/local_setup.zsh

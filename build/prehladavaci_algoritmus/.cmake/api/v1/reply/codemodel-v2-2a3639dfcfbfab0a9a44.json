@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0db218cefecfbf43f406.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "prehladavaci_algoritmus",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "drone_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drone_controller-cca82aea8b48d5c44179.json",
+					"name" : "drone_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "planner_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-planner_node-febd42dd8ca28df87447.json",
+					"name" : "planner_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prehladavaci_algoritmus_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prehladavaci_algoritmus_uninstall-7296806d1ebca856b571.json",
+					"name" : "prehladavaci_algoritmus_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5cac2c7654040d575d0a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus",
+		"source" : "/home/ubuntu/LRS-FEI/prehladavaci_algoritmus"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

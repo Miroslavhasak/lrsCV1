@@ -1,0 +1,1 @@
+/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader/ament_cmake_core/pcd_map_loaderConfig.cmake

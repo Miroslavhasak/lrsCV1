@@ -1,0 +1,481 @@
+[0.000000] (-) TimerEvent: {}
+[0.013846] (pcd_map_loader) JobQueued: {'identifier': 'pcd_map_loader', 'dependencies': OrderedDict()}
+[0.014253] (pcd_map_loader) JobStarted: {'identifier': 'pcd_map_loader'}
+[0.071166] (pcd_map_loader) JobProgress: {'identifier': 'pcd_map_loader', 'progress': 'cmake'}
+[0.087501] (pcd_map_loader) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/LRS-FEI/nacitanie_mapy', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader'], 'cwd': '/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1785'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f326f8390f1776cbeb1eea3668f37286'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/ubuntu/LRS-FEI/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/ubuntu/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ubuntu/.local/bin:/home/ubuntu/drone/apm/ardupilot/Tools/autotest'), ('SESSION_MANAGER', 'local/ubuntu-2204:@/tmp/.ICE-unix/1785,unix/ubuntu-2204:/tmp/.ICE-unix/1785'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3d13f843_7200_4bf4_9281_15572e101fb2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8W2ME3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f326f8390f1776cbeb1eea3668f37286'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.111775] (-) TimerEvent: {}
+[0.216505] (-) TimerEvent: {}
+[0.317418] (-) TimerEvent: {}
+[0.343718] (pcd_map_loader) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.420775] (-) TimerEvent: {}
+[0.524170] (-) TimerEvent: {}
+[0.526683] (pcd_map_loader) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.558931] (pcd_map_loader) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.625178] (-) TimerEvent: {}
+[0.729790] (-) TimerEvent: {}
+[0.830880] (pcd_map_loader) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.831291] (-) TimerEvent: {}
+[0.849654] (pcd_map_loader) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[0.849966] (pcd_map_loader) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.850094] (pcd_map_loader) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.850191] (pcd_map_loader) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.931997] (-) TimerEvent: {}
+[1.033066] (-) TimerEvent: {}
+[1.092556] (pcd_map_loader) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.118371] (pcd_map_loader) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[1.118630] (pcd_map_loader) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.118727] (pcd_map_loader) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.118792] (pcd_map_loader) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.134689] (-) TimerEvent: {}
+[1.240515] (-) TimerEvent: {}
+[1.341394] (-) TimerEvent: {}
+[1.443110] (-) TimerEvent: {}
+[1.546503] (pcd_map_loader) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.547623] (-) TimerEvent: {}
+[1.649252] (-) TimerEvent: {}
+[1.709568] (pcd_map_loader) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.752282] (-) TimerEvent: {}
+[1.788638] (pcd_map_loader) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.852720] (-) TimerEvent: {}
+[1.875339] (pcd_map_loader) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.883209] (pcd_map_loader) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.913729] (pcd_map_loader) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.937438] (pcd_map_loader) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.955400] (-) TimerEvent: {}
+[1.968300] (pcd_map_loader) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.056349] (-) TimerEvent: {}
+[2.086805] (pcd_map_loader) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.088410] (pcd_map_loader) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.162186] (-) TimerEvent: {}
+[2.265647] (-) TimerEvent: {}
+[2.367372] (-) TimerEvent: {}
+[2.369860] (pcd_map_loader) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.437306] (pcd_map_loader) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.469287] (-) TimerEvent: {}
+[2.539735] (pcd_map_loader) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.554267] (pcd_map_loader) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.572403] (-) TimerEvent: {}
+[2.674885] (-) TimerEvent: {}
+[2.775735] (-) TimerEvent: {}
+[2.879099] (-) TimerEvent: {}
+[2.889257] (pcd_map_loader) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.892145] (pcd_map_loader) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.980061] (-) TimerEvent: {}
+[3.082415] (-) TimerEvent: {}
+[3.189387] (-) TimerEvent: {}
+[3.288379] (pcd_map_loader) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.290026] (-) TimerEvent: {}
+[3.291854] (pcd_map_loader) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.390348] (-) TimerEvent: {}
+[3.483439] (pcd_map_loader) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.491214] (-) TimerEvent: {}
+[3.569921] (pcd_map_loader) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[3.591861] (-) TimerEvent: {}
+[3.693709] (-) TimerEvent: {}
+[3.734770] (pcd_map_loader) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[3.786038] (pcd_map_loader) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[3.794847] (-) TimerEvent: {}
+[3.896916] (-) TimerEvent: {}
+[3.984632] (pcd_map_loader) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[3.985136] (pcd_map_loader) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[4.028633] (-) TimerEvent: {}
+[4.038878] (pcd_map_loader) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[4.100209] (pcd_map_loader) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[4.129961] (-) TimerEvent: {}
+[4.231253] (-) TimerEvent: {}
+[4.262808] (pcd_map_loader) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[4.263094] (pcd_map_loader) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[4.332101] (-) TimerEvent: {}
+[4.432779] (-) TimerEvent: {}
+[4.533883] (-) TimerEvent: {}
+[4.635421] (-) TimerEvent: {}
+[4.748204] (-) TimerEvent: {}
+[4.850847] (-) TimerEvent: {}
+[4.952992] (-) TimerEvent: {}
+[5.054741] (-) TimerEvent: {}
+[5.158070] (-) TimerEvent: {}
+[5.264556] (-) TimerEvent: {}
+[5.367136] (-) TimerEvent: {}
+[5.468348] (-) TimerEvent: {}
+[5.569423] (-) TimerEvent: {}
+[5.681487] (-) TimerEvent: {}
+[5.784799] (-) TimerEvent: {}
+[5.886269] (-) TimerEvent: {}
+[5.989866] (-) TimerEvent: {}
+[6.092602] (-) TimerEvent: {}
+[6.197343] (-) TimerEvent: {}
+[6.298399] (-) TimerEvent: {}
+[6.399108] (-) TimerEvent: {}
+[6.500761] (-) TimerEvent: {}
+[6.609155] (-) TimerEvent: {}
+[6.714603] (-) TimerEvent: {}
+[6.816384] (-) TimerEvent: {}
+[6.918571] (-) TimerEvent: {}
+[7.047237] (-) TimerEvent: {}
+[7.148112] (-) TimerEvent: {}
+[7.249917] (-) TimerEvent: {}
+[7.340319] (pcd_map_loader) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[7.350331] (-) TimerEvent: {}
+[7.413369] (pcd_map_loader) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[7.451716] (-) TimerEvent: {}
+[7.552645] (-) TimerEvent: {}
+[7.557577] (pcd_map_loader) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[7.559497] (pcd_map_loader) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[7.653181] (-) TimerEvent: {}
+[7.754074] (-) TimerEvent: {}
+[7.768872] (pcd_map_loader) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[7.854293] (-) TimerEvent: {}
+[7.955336] (-) TimerEvent: {}
+[8.060503] (-) TimerEvent: {}
+[8.151466] (pcd_map_loader) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[8.161359] (-) TimerEvent: {}
+[8.174511] (pcd_map_loader) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[8.184621] (pcd_map_loader) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[8.263418] (-) TimerEvent: {}
+[8.365839] (-) TimerEvent: {}
+[8.468648] (-) TimerEvent: {}
+[8.568257] (pcd_map_loader) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[8.568977] (-) TimerEvent: {}
+[8.673923] (-) TimerEvent: {}
+[8.779810] (-) TimerEvent: {}
+[8.884292] (-) TimerEvent: {}
+[8.922674] (pcd_map_loader) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[8.987468] (-) TimerEvent: {}
+[9.088319] (-) TimerEvent: {}
+[9.189390] (-) TimerEvent: {}
+[9.268711] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[9.268930] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[9.269068] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[9.269138] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[9.270289] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[9.274331] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[9.278642] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[9.281617] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[9.283099] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[9.284691] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[9.286061] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[9.287357] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[9.289359] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[9.289496] (-) TimerEvent: {}
+[9.290641] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[9.291865] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[9.293106] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[9.294390] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[9.295782] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[9.297254] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[9.299260] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[9.302424] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[9.302989] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[9.304324] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[9.306848] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[9.308609] (pcd_map_loader) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[9.311569] (pcd_map_loader) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:13 (find_package):\n'}
+[9.312506] (pcd_map_loader) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[9.312824] (pcd_map_loader) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[9.312889] (pcd_map_loader) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[9.312947] (pcd_map_loader) StderrLine: {'line': b'\n'}
+[9.313001] (pcd_map_loader) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[9.313054] (pcd_map_loader) StderrLine: {'line': b'\n'}
+[9.313106] (pcd_map_loader) StderrLine: {'line': b'    /usr\n'}
+[9.313159] (pcd_map_loader) StderrLine: {'line': b'\n'}
+[9.313210] (pcd_map_loader) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[9.313262] (pcd_map_loader) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[9.313314] (pcd_map_loader) StderrLine: {'line': b'\x1b[0m\n'}
+[9.445113] (-) TimerEvent: {}
+[9.459835] (pcd_map_loader) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.520124] (pcd_map_loader) StdoutLine: {'line': b'-- Generating done\n'}
+[9.549559] (-) TimerEvent: {}
+[9.551445] (pcd_map_loader) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader\n'}
+[9.588798] (pcd_map_loader) CommandEnded: {'returncode': 0}
+[9.591534] (pcd_map_loader) JobProgress: {'identifier': 'pcd_map_loader', 'progress': 'build'}
+[9.591579] (pcd_map_loader) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader', '--', '-j5', '-l5'], 'cwd': '/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1785'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f326f8390f1776cbeb1eea3668f37286'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/ubuntu/LRS-FEI/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/ubuntu/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ubuntu/.local/bin:/home/ubuntu/drone/apm/ardupilot/Tools/autotest'), ('SESSION_MANAGER', 'local/ubuntu-2204:@/tmp/.ICE-unix/1785,unix/ubuntu-2204:/tmp/.ICE-unix/1785'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3d13f843_7200_4bf4_9281_15572e101fb2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8W2ME3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f326f8390f1776cbeb1eea3668f37286'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.650073] (-) TimerEvent: {}
+[9.751176] (-) TimerEvent: {}
+[9.832723] (pcd_map_loader) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pcd_map_loader_node.dir/src/pcd_map_loader.cpp.o\x1b[0m\n'}
+[9.851554] (-) TimerEvent: {}
+[9.953753] (-) TimerEvent: {}
+[10.056608] (-) TimerEvent: {}
+[10.159705] (-) TimerEvent: {}
+[10.262717] (-) TimerEvent: {}
+[10.367402] (-) TimerEvent: {}
+[10.474529] (-) TimerEvent: {}
+[10.575274] (-) TimerEvent: {}
+[10.676275] (-) TimerEvent: {}
+[10.776683] (-) TimerEvent: {}
+[10.879931] (-) TimerEvent: {}
+[10.981783] (-) TimerEvent: {}
+[11.082327] (-) TimerEvent: {}
+[11.183304] (-) TimerEvent: {}
+[11.284374] (-) TimerEvent: {}
+[11.385215] (-) TimerEvent: {}
+[11.486572] (-) TimerEvent: {}
+[11.589187] (-) TimerEvent: {}
+[11.690953] (-) TimerEvent: {}
+[11.792823] (-) TimerEvent: {}
+[11.894945] (-) TimerEvent: {}
+[11.998318] (-) TimerEvent: {}
+[12.104334] (-) TimerEvent: {}
+[12.211491] (-) TimerEvent: {}
+[12.311945] (-) TimerEvent: {}
+[12.413712] (-) TimerEvent: {}
+[12.514347] (-) TimerEvent: {}
+[12.615813] (-) TimerEvent: {}
+[12.716313] (-) TimerEvent: {}
+[12.820544] (-) TimerEvent: {}
+[12.922452] (-) TimerEvent: {}
+[13.024050] (-) TimerEvent: {}
+[13.125577] (-) TimerEvent: {}
+[13.226451] (-) TimerEvent: {}
+[13.328989] (-) TimerEvent: {}
+[13.431706] (-) TimerEvent: {}
+[13.533025] (-) TimerEvent: {}
+[13.634558] (-) TimerEvent: {}
+[13.735162] (-) TimerEvent: {}
+[13.835793] (-) TimerEvent: {}
+[13.936570] (-) TimerEvent: {}
+[14.038415] (-) TimerEvent: {}
+[14.140349] (-) TimerEvent: {}
+[14.242219] (-) TimerEvent: {}
+[14.347576] (-) TimerEvent: {}
+[14.448893] (-) TimerEvent: {}
+[14.551553] (-) TimerEvent: {}
+[14.653464] (-) TimerEvent: {}
+[14.755693] (-) TimerEvent: {}
+[14.880428] (-) TimerEvent: {}
+[14.981861] (-) TimerEvent: {}
+[15.085720] (-) TimerEvent: {}
+[15.206621] (-) TimerEvent: {}
+[15.311775] (-) TimerEvent: {}
+[15.417319] (-) TimerEvent: {}
+[15.524686] (-) TimerEvent: {}
+[15.636938] (-) TimerEvent: {}
+[15.744799] (-) TimerEvent: {}
+[15.846610] (-) TimerEvent: {}
+[15.947438] (-) TimerEvent: {}
+[16.049755] (-) TimerEvent: {}
+[16.151073] (-) TimerEvent: {}
+[16.253783] (-) TimerEvent: {}
+[16.356834] (-) TimerEvent: {}
+[16.458175] (-) TimerEvent: {}
+[16.560819] (-) TimerEvent: {}
+[16.663924] (-) TimerEvent: {}
+[16.774045] (-) TimerEvent: {}
+[16.878787] (-) TimerEvent: {}
+[16.985717] (-) TimerEvent: {}
+[17.103692] (-) TimerEvent: {}
+[17.206165] (-) TimerEvent: {}
+[17.308204] (-) TimerEvent: {}
+[17.413927] (-) TimerEvent: {}
+[17.519762] (-) TimerEvent: {}
+[17.623584] (-) TimerEvent: {}
+[17.736586] (-) TimerEvent: {}
+[17.842269] (-) TimerEvent: {}
+[17.950886] (-) TimerEvent: {}
+[18.055254] (-) TimerEvent: {}
+[18.162005] (-) TimerEvent: {}
+[18.280502] (-) TimerEvent: {}
+[18.381370] (-) TimerEvent: {}
+[18.482139] (-) TimerEvent: {}
+[18.582693] (-) TimerEvent: {}
+[18.683398] (-) TimerEvent: {}
+[18.784737] (-) TimerEvent: {}
+[18.886058] (-) TimerEvent: {}
+[18.987321] (-) TimerEvent: {}
+[19.091104] (-) TimerEvent: {}
+[19.202224] (-) TimerEvent: {}
+[19.321323] (-) TimerEvent: {}
+[19.434448] (-) TimerEvent: {}
+[19.540356] (-) TimerEvent: {}
+[19.641584] (-) TimerEvent: {}
+[19.760242] (-) TimerEvent: {}
+[19.874050] (-) TimerEvent: {}
+[19.976625] (-) TimerEvent: {}
+[20.086053] (-) TimerEvent: {}
+[20.200449] (-) TimerEvent: {}
+[20.304595] (-) TimerEvent: {}
+[20.407641] (-) TimerEvent: {}
+[20.508938] (-) TimerEvent: {}
+[20.612015] (-) TimerEvent: {}
+[20.713659] (-) TimerEvent: {}
+[20.815174] (-) TimerEvent: {}
+[20.917367] (-) TimerEvent: {}
+[21.020172] (-) TimerEvent: {}
+[21.122756] (-) TimerEvent: {}
+[21.229610] (-) TimerEvent: {}
+[21.349295] (-) TimerEvent: {}
+[21.450223] (-) TimerEvent: {}
+[21.552543] (-) TimerEvent: {}
+[21.653307] (-) TimerEvent: {}
+[21.762660] (-) TimerEvent: {}
+[21.872504] (-) TimerEvent: {}
+[21.980010] (-) TimerEvent: {}
+[22.085305] (-) TimerEvent: {}
+[22.192534] (-) TimerEvent: {}
+[22.299967] (-) TimerEvent: {}
+[22.406440] (-) TimerEvent: {}
+[22.507860] (-) TimerEvent: {}
+[22.610814] (-) TimerEvent: {}
+[22.731903] (-) TimerEvent: {}
+[22.835584] (-) TimerEvent: {}
+[22.944145] (-) TimerEvent: {}
+[23.059058] (-) TimerEvent: {}
+[23.163286] (-) TimerEvent: {}
+[23.265961] (-) TimerEvent: {}
+[23.366987] (-) TimerEvent: {}
+[23.468624] (-) TimerEvent: {}
+[23.571185] (-) TimerEvent: {}
+[23.673036] (-) TimerEvent: {}
+[23.777795] (-) TimerEvent: {}
+[23.879409] (-) TimerEvent: {}
+[23.986483] (-) TimerEvent: {}
+[24.098761] (-) TimerEvent: {}
+[24.199681] (-) TimerEvent: {}
+[24.302258] (-) TimerEvent: {}
+[24.405704] (-) TimerEvent: {}
+[24.508847] (-) TimerEvent: {}
+[24.619671] (-) TimerEvent: {}
+[24.720926] (-) TimerEvent: {}
+[24.844801] (-) TimerEvent: {}
+[24.948226] (-) TimerEvent: {}
+[25.054695] (-) TimerEvent: {}
+[25.156536] (-) TimerEvent: {}
+[25.263785] (-) TimerEvent: {}
+[25.369266] (-) TimerEvent: {}
+[25.471863] (-) TimerEvent: {}
+[25.579369] (-) TimerEvent: {}
+[25.684463] (-) TimerEvent: {}
+[25.785664] (-) TimerEvent: {}
+[25.886271] (-) TimerEvent: {}
+[25.987793] (-) TimerEvent: {}
+[26.090276] (-) TimerEvent: {}
+[26.193326] (-) TimerEvent: {}
+[26.295070] (-) TimerEvent: {}
+[26.398689] (-) TimerEvent: {}
+[26.516192] (-) TimerEvent: {}
+[26.617569] (-) TimerEvent: {}
+[26.727219] (-) TimerEvent: {}
+[26.835757] (-) TimerEvent: {}
+[26.950519] (-) TimerEvent: {}
+[27.057943] (-) TimerEvent: {}
+[27.164246] (-) TimerEvent: {}
+[27.267701] (-) TimerEvent: {}
+[27.384363] (-) TimerEvent: {}
+[27.486596] (-) TimerEvent: {}
+[27.587373] (-) TimerEvent: {}
+[27.688599] (-) TimerEvent: {}
+[27.789887] (-) TimerEvent: {}
+[27.892608] (-) TimerEvent: {}
+[27.999843] (-) TimerEvent: {}
+[28.106317] (-) TimerEvent: {}
+[28.207950] (-) TimerEvent: {}
+[28.331333] (-) TimerEvent: {}
+[28.439764] (-) TimerEvent: {}
+[28.541764] (-) TimerEvent: {}
+[28.677983] (-) TimerEvent: {}
+[28.780042] (-) TimerEvent: {}
+[28.881776] (-) TimerEvent: {}
+[28.983824] (-) TimerEvent: {}
+[29.086129] (-) TimerEvent: {}
+[29.191809] (-) TimerEvent: {}
+[29.301953] (-) TimerEvent: {}
+[29.405103] (-) TimerEvent: {}
+[29.507803] (-) TimerEvent: {}
+[29.622027] (-) TimerEvent: {}
+[29.745472] (-) TimerEvent: {}
+[29.847975] (-) TimerEvent: {}
+[29.951283] (-) TimerEvent: {}
+[30.054271] (-) TimerEvent: {}
+[30.157110] (-) TimerEvent: {}
+[30.265211] (-) TimerEvent: {}
+[30.365970] (-) TimerEvent: {}
+[30.473372] (-) TimerEvent: {}
+[30.578692] (-) TimerEvent: {}
+[30.681529] (-) TimerEvent: {}
+[30.782932] (-) TimerEvent: {}
+[30.884907] (-) TimerEvent: {}
+[30.986131] (-) TimerEvent: {}
+[31.091157] (-) TimerEvent: {}
+[31.198628] (-) TimerEvent: {}
+[31.307797] (-) TimerEvent: {}
+[31.414669] (-) TimerEvent: {}
+[31.529947] (-) TimerEvent: {}
+[31.635922] (-) TimerEvent: {}
+[31.739763] (-) TimerEvent: {}
+[31.840479] (-) TimerEvent: {}
+[31.941259] (-) TimerEvent: {}
+[32.044786] (-) TimerEvent: {}
+[32.149347] (-) TimerEvent: {}
+[32.250572] (-) TimerEvent: {}
+[32.352379] (-) TimerEvent: {}
+[32.453783] (-) TimerEvent: {}
+[32.556526] (-) TimerEvent: {}
+[32.666478] (-) TimerEvent: {}
+[32.781192] (-) TimerEvent: {}
+[32.882390] (-) TimerEvent: {}
+[32.988254] (-) TimerEvent: {}
+[33.089930] (-) TimerEvent: {}
+[33.196396] (-) TimerEvent: {}
+[33.298646] (-) TimerEvent: {}
+[33.377857] (pcd_map_loader) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pcd_map_loader_node\x1b[0m\n'}
+[33.404695] (-) TimerEvent: {}
+[33.507894] (-) TimerEvent: {}
+[33.616341] (-) TimerEvent: {}
+[33.717809] (-) TimerEvent: {}
+[33.819418] (-) TimerEvent: {}
+[33.920520] (-) TimerEvent: {}
+[34.022370] (-) TimerEvent: {}
+[34.124848] (-) TimerEvent: {}
+[34.230579] (-) TimerEvent: {}
+[34.334879] (-) TimerEvent: {}
+[34.435813] (-) TimerEvent: {}
+[34.538046] (-) TimerEvent: {}
+[34.647713] (-) TimerEvent: {}
+[34.748862] (-) TimerEvent: {}
+[34.849885] (-) TimerEvent: {}
+[34.951330] (-) TimerEvent: {}
+[35.052456] (-) TimerEvent: {}
+[35.153574] (-) TimerEvent: {}
+[35.256065] (-) TimerEvent: {}
+[35.357123] (-) TimerEvent: {}
+[35.457682] (-) TimerEvent: {}
+[35.558710] (-) TimerEvent: {}
+[35.670281] (-) TimerEvent: {}
+[35.772185] (-) TimerEvent: {}
+[35.873269] (-) TimerEvent: {}
+[35.973929] (-) TimerEvent: {}
+[36.074978] (-) TimerEvent: {}
+[36.177583] (-) TimerEvent: {}
+[36.285127] (-) TimerEvent: {}
+[36.386572] (-) TimerEvent: {}
+[36.455898] (pcd_map_loader) StdoutLine: {'line': b'[100%] Built target pcd_map_loader_node\n'}
+[36.487273] (-) TimerEvent: {}
+[36.502375] (pcd_map_loader) CommandEnded: {'returncode': 0}
+[36.507638] (pcd_map_loader) JobProgress: {'identifier': 'pcd_map_loader', 'progress': 'install'}
+[36.546602] (pcd_map_loader) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader'], 'cwd': '/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1785'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f326f8390f1776cbeb1eea3668f37286'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/ubuntu/LRS-FEI/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/ubuntu/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ubuntu/.local/bin:/home/ubuntu/drone/apm/ardupilot/Tools/autotest'), ('SESSION_MANAGER', 'local/ubuntu-2204:@/tmp/.ICE-unix/1785,unix/ubuntu-2204:/tmp/.ICE-unix/1785'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3d13f843_7200_4bf4_9281_15572e101fb2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8W2ME3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/LRS-FEI/nacitanie_mapy/build/pcd_map_loader'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f326f8390f1776cbeb1eea3668f37286'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[36.565640] (pcd_map_loader) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[36.581242] (pcd_map_loader) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[36.583820] (pcd_map_loader) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/lib/pcd_map_loader/pcd_map_loader_node\n'}
+[36.588336] (-) TimerEvent: {}
+[36.613894] (pcd_map_loader) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/ament_index/resource_index/package_run_dependencies/pcd_map_loader\n'}
+[36.645486] (pcd_map_loader) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/ament_index/resource_index/parent_prefix_path/pcd_map_loader\n'}
+[36.674044] (pcd_map_loader) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/environment/ament_prefix_path.sh\n'}
+[36.689029] (pcd_map_loader) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/environment/ament_prefix_path.dsv\n'}
+[36.689352] (-) TimerEvent: {}
+[36.715367] (pcd_map_loader) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/environment/path.sh\n'}
+[36.745145] (pcd_map_loader) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/environment/path.dsv\n'}
+[36.789849] (pcd_map_loader) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/local_setup.bash\n'}
+[36.790193] (-) TimerEvent: {}
+[36.828898] (pcd_map_loader) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/local_setup.sh\n'}
+[36.867462] (pcd_map_loader) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/local_setup.zsh\n'}
+[36.895896] (pcd_map_loader) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/local_setup.dsv\n'}
+[36.897599] (-) TimerEvent: {}
+[36.923395] (pcd_map_loader) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/package.dsv\n'}
+[36.953719] (pcd_map_loader) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/ament_index/resource_index/packages/pcd_map_loader\n'}
+[36.997671] (pcd_map_loader) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/cmake/pcd_map_loaderConfig.cmake\n'}
+[36.998297] (-) TimerEvent: {}
+[37.018552] (pcd_map_loader) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/cmake/pcd_map_loaderConfig-version.cmake\n'}
+[37.043287] (pcd_map_loader) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader/share/pcd_map_loader/package.xml\n'}
+[37.075725] (pcd_map_loader) CommandEnded: {'returncode': 0}
+[37.098747] (-) TimerEvent: {}
+[37.168658] (pcd_map_loader) JobEnded: {'identifier': 'pcd_map_loader', 'rc': 0}
+[37.171551] (-) EventReactorShutdown: {}

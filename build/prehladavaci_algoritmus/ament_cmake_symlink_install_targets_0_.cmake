@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus/planner_node" "/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus/drone_controller" "TARGETS" "planner_node" "drone_controller" "DESTINATION" "lib/prehladavaci_algoritmus")
