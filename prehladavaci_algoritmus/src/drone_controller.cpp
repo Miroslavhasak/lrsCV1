@@ -1,5 +1,6 @@
 #include <rclcpp/rclcpp.hpp>
 #include <geometry_msgs/msg/pose_stamped.hpp>
+#include <tf2/LinearMath/Quaternion.h>
 #include <chrono>
 #include <thread>
 #include <vector>
@@ -20,6 +21,9 @@ public:
 
         // vzlet
         takeoff(1.0);  // vyska vzletu 1 meter
+        
+        // natočenie drona o 90 stupnov
+	rotate(M_PI/2);
 
         // let po trajektorii
         fly_path();
@@ -89,6 +93,35 @@ private:
             std::this_thread::sleep_for(100ms);
         }
     }
+    
+    void rotate(double yaw_rad)
+    {
+      geometry_msgs::msg::PoseStamped pose;
+      pose.header.frame_id = "map";
+
+      // zachovame poziciu drona ako pri vzlete
+      pose.pose.position.x = 0.0;
+      pose.pose.position.y = 0.0;
+      pose.pose.position.z = 1.0;  // dron uz je vo vzduchu
+
+      // nastavenie orientacie pomocou yaw
+      tf2::Quaternion q;
+      q.setRPY(0, 0, yaw_rad);  // roll, pitch, yaw
+      pose.pose.orientation.x = q.x();
+      pose.pose.orientation.y = q.y();
+      pose.pose.orientation.z = q.z();
+      pose.pose.orientation.w = q.w();
+
+      RCLCPP_INFO(this->get_logger(), "Natočenie drona o %.2f radianov", yaw_rad);
+
+      for(int i=0; i<50; i++)
+      {
+        pose.header.stamp = this->now();
+        pose_pub_->publish(pose);
+        std::this_thread::sleep_for(100ms);
+      }
+    }
+
 };
 
 int main(int argc, char* argv[])

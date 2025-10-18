@@ -1,0 +1,7 @@
+[01m[K/home/ubuntu/LRS-FEI/prehladavaci_algoritmus/src/drone_controller.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Ktf2/LinearMath/Quaternion.h: No such file or directory
+    3 | #include [01;31m[K<tf2/LinearMath/Quaternion.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/drone_controller.dir/build.make:76: CMakeFiles/drone_controller.dir/src/drone_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/drone_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

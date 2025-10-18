@@ -1,0 +1,233 @@
+[0.000000] (-) TimerEvent: {}
+[0.000194] (-) JobUnselected: {'identifier': 'csv_reader'}
+[0.000226] (-) JobUnselected: {'identifier': 'pcd_map_loader'}
+[0.000253] (-) JobUnselected: {'identifier': 'template_drone_control'}
+[0.000959] (prehladavaci_algoritmus) JobQueued: {'identifier': 'prehladavaci_algoritmus', 'dependencies': OrderedDict()}
+[0.000986] (prehladavaci_algoritmus) JobStarted: {'identifier': 'prehladavaci_algoritmus'}
+[0.020246] (prehladavaci_algoritmus) JobProgress: {'identifier': 'prehladavaci_algoritmus', 'progress': 'cmake'}
+[0.023731] (prehladavaci_algoritmus) JobProgress: {'identifier': 'prehladavaci_algoritmus', 'progress': 'build'}
+[0.023959] (prehladavaci_algoritmus) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus', '--', '-j5', '-l5'], 'cwd': '/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1785'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f326f8390f1776cbeb1eea3668f37286'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/LRS-FEI/nacitanie_mapy/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/ubuntu/LRS-FEI/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/ubuntu/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ubuntu/.local/bin:/home/ubuntu/drone/apm/ardupilot/Tools/autotest'), ('SESSION_MANAGER', 'local/ubuntu-2204:@/tmp/.ICE-unix/1785,unix/ubuntu-2204:/tmp/.ICE-unix/1785'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e12b700f_32dd_4d6e_bb2b_0c20e4044ccc'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8W2ME3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f326f8390f1776cbeb1eea3668f37286'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader:/opt/ros/humble')]), 'shell': False}
+[0.099781] (-) TimerEvent: {}
+[0.151547] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.202759] (-) TimerEvent: {}
+[0.307826] (-) TimerEvent: {}
+[0.409132] (-) TimerEvent: {}
+[0.513729] (-) TimerEvent: {}
+[0.530332] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.543332] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.614995] (-) TimerEvent: {}
+[0.620689] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.635142] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.635400] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.644477] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.678295] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.720916] (-) TimerEvent: {}
+[0.756050] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.769664] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.821136] (-) TimerEvent: {}
+[0.922867] (-) TimerEvent: {}
+[1.015895] (prehladavaci_algoritmus) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.028017] (-) TimerEvent: {}
+[1.129195] (-) TimerEvent: {}
+[1.142885] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.202622] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.231131] (-) TimerEvent: {}
+[1.238237] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[1.331927] (-) TimerEvent: {}
+[1.335065] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.402267] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.438444] (-) TimerEvent: {}
+[1.539357] (-) TimerEvent: {}
+[1.641161] (-) TimerEvent: {}
+[1.749332] (-) TimerEvent: {}
+[1.856335] (-) TimerEvent: {}
+[1.957732] (-) TimerEvent: {}
+[2.060215] (-) TimerEvent: {}
+[2.120386] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.132049] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.167741] (-) TimerEvent: {}
+[2.268287] (-) TimerEvent: {}
+[2.369142] (-) TimerEvent: {}
+[2.471392] (-) TimerEvent: {}
+[2.506247] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.531617] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.554084] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.577871] (-) TimerEvent: {}
+[2.686366] (-) TimerEvent: {}
+[2.788760] (-) TimerEvent: {}
+[2.891367] (-) TimerEvent: {}
+[2.918882] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.994906] (-) TimerEvent: {}
+[3.095694] (-) TimerEvent: {}
+[3.196563] (-) TimerEvent: {}
+[3.293249] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.297033] (-) TimerEvent: {}
+[3.404007] (-) TimerEvent: {}
+[3.505303] (-) TimerEvent: {}
+[3.610480] (-) TimerEvent: {}
+[3.630933] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[3.659904] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[3.664616] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.716936] (-) TimerEvent: {}
+[3.818345] (-) TimerEvent: {}
+[3.918986] (-) TimerEvent: {}
+[3.971947] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.020160] (-) TimerEvent: {}
+[4.124660] (-) TimerEvent: {}
+[4.142972] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Generating done\n'}
+[4.180003] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus\n'}
+[4.225079] (-) TimerEvent: {}
+[4.292955] (prehladavaci_algoritmus) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target drone_controller\x1b[0m\n'}
+[4.297101] (prehladavaci_algoritmus) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target planner_node\x1b[0m\n'}
+[4.331136] (-) TimerEvent: {}
+[4.337417] (prehladavaci_algoritmus) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/drone_controller.dir/src/drone_controller.cpp.o\x1b[0m\n'}
+[4.385153] (prehladavaci_algoritmus) StdoutLine: {'line': b'[ 83%] Built target planner_node\n'}
+[4.436782] (-) TimerEvent: {}
+[4.540534] (-) TimerEvent: {}
+[4.644216] (-) TimerEvent: {}
+[4.749206] (-) TimerEvent: {}
+[4.853843] (-) TimerEvent: {}
+[4.957300] (-) TimerEvent: {}
+[5.061133] (-) TimerEvent: {}
+[5.173177] (-) TimerEvent: {}
+[5.274822] (-) TimerEvent: {}
+[5.377088] (-) TimerEvent: {}
+[5.478678] (-) TimerEvent: {}
+[5.585720] (-) TimerEvent: {}
+[5.687056] (-) TimerEvent: {}
+[5.791928] (-) TimerEvent: {}
+[5.895868] (-) TimerEvent: {}
+[6.003358] (-) TimerEvent: {}
+[6.108065] (-) TimerEvent: {}
+[6.212089] (-) TimerEvent: {}
+[6.317174] (-) TimerEvent: {}
+[6.417807] (-) TimerEvent: {}
+[6.519792] (-) TimerEvent: {}
+[6.621770] (-) TimerEvent: {}
+[6.725019] (-) TimerEvent: {}
+[6.828116] (-) TimerEvent: {}
+[6.931039] (-) TimerEvent: {}
+[7.033994] (-) TimerEvent: {}
+[7.134818] (-) TimerEvent: {}
+[7.237553] (-) TimerEvent: {}
+[7.341897] (-) TimerEvent: {}
+[7.443807] (-) TimerEvent: {}
+[7.547986] (-) TimerEvent: {}
+[7.650430] (-) TimerEvent: {}
+[7.751506] (-) TimerEvent: {}
+[7.853063] (-) TimerEvent: {}
+[7.953744] (-) TimerEvent: {}
+[8.056897] (-) TimerEvent: {}
+[8.162466] (-) TimerEvent: {}
+[8.271072] (-) TimerEvent: {}
+[8.374460] (-) TimerEvent: {}
+[8.490734] (-) TimerEvent: {}
+[8.593796] (-) TimerEvent: {}
+[8.699627] (-) TimerEvent: {}
+[8.803146] (-) TimerEvent: {}
+[8.907616] (-) TimerEvent: {}
+[9.009067] (-) TimerEvent: {}
+[9.112875] (-) TimerEvent: {}
+[9.218729] (-) TimerEvent: {}
+[9.321326] (-) TimerEvent: {}
+[9.423129] (-) TimerEvent: {}
+[9.527386] (-) TimerEvent: {}
+[9.630540] (-) TimerEvent: {}
+[9.734655] (-) TimerEvent: {}
+[9.836444] (-) TimerEvent: {}
+[9.941965] (-) TimerEvent: {}
+[10.045125] (-) TimerEvent: {}
+[10.147173] (-) TimerEvent: {}
+[10.256053] (-) TimerEvent: {}
+[10.360044] (-) TimerEvent: {}
+[10.462962] (-) TimerEvent: {}
+[10.566490] (-) TimerEvent: {}
+[10.667732] (-) TimerEvent: {}
+[10.768837] (-) TimerEvent: {}
+[10.869860] (-) TimerEvent: {}
+[10.970876] (-) TimerEvent: {}
+[11.076648] (-) TimerEvent: {}
+[11.178347] (-) TimerEvent: {}
+[11.298024] (-) TimerEvent: {}
+[11.400837] (-) TimerEvent: {}
+[11.505422] (-) TimerEvent: {}
+[11.607064] (-) TimerEvent: {}
+[11.709669] (-) TimerEvent: {}
+[11.812983] (-) TimerEvent: {}
+[11.916600] (-) TimerEvent: {}
+[12.019781] (-) TimerEvent: {}
+[12.120662] (-) TimerEvent: {}
+[12.222373] (-) TimerEvent: {}
+[12.324734] (-) TimerEvent: {}
+[12.427935] (-) TimerEvent: {}
+[12.530167] (-) TimerEvent: {}
+[12.631513] (-) TimerEvent: {}
+[12.734917] (-) TimerEvent: {}
+[12.836067] (-) TimerEvent: {}
+[12.937605] (-) TimerEvent: {}
+[13.040011] (-) TimerEvent: {}
+[13.145084] (-) TimerEvent: {}
+[13.248468] (-) TimerEvent: {}
+[13.350386] (-) TimerEvent: {}
+[13.454183] (-) TimerEvent: {}
+[13.555145] (-) TimerEvent: {}
+[13.658504] (-) TimerEvent: {}
+[13.760102] (-) TimerEvent: {}
+[13.861908] (-) TimerEvent: {}
+[13.964603] (-) TimerEvent: {}
+[14.066087] (-) TimerEvent: {}
+[14.191186] (-) TimerEvent: {}
+[14.294959] (-) TimerEvent: {}
+[14.405804] (-) TimerEvent: {}
+[14.507274] (-) TimerEvent: {}
+[14.610575] (-) TimerEvent: {}
+[14.713319] (-) TimerEvent: {}
+[14.819288] (-) TimerEvent: {}
+[14.920720] (-) TimerEvent: {}
+[15.021513] (-) TimerEvent: {}
+[15.123264] (-) TimerEvent: {}
+[15.225658] (-) TimerEvent: {}
+[15.327901] (-) TimerEvent: {}
+[15.429962] (-) TimerEvent: {}
+[15.532270] (-) TimerEvent: {}
+[15.641821] (-) TimerEvent: {}
+[15.745710] (-) TimerEvent: {}
+[15.847848] (-) TimerEvent: {}
+[15.951730] (-) TimerEvent: {}
+[16.063932] (-) TimerEvent: {}
+[16.166634] (-) TimerEvent: {}
+[16.267726] (-) TimerEvent: {}
+[16.371880] (-) TimerEvent: {}
+[16.398374] (prehladavaci_algoritmus) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable drone_controller\x1b[0m\n'}
+[16.472755] (-) TimerEvent: {}
+[16.735394] (-) TimerEvent: {}
+[16.820316] (prehladavaci_algoritmus) StdoutLine: {'line': b'[100%] Built target drone_controller\n'}
+[16.835973] (-) TimerEvent: {}
+[16.908923] (prehladavaci_algoritmus) CommandEnded: {'returncode': 0}
+[16.913244] (prehladavaci_algoritmus) JobProgress: {'identifier': 'prehladavaci_algoritmus', 'progress': 'install'}
+[16.936460] (-) TimerEvent: {}
+[16.959723] (prehladavaci_algoritmus) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus'], 'cwd': '/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1785'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f326f8390f1776cbeb1eea3668f37286'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/LRS-FEI/nacitanie_mapy/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/ubuntu/LRS-FEI/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/lib/ccache:/home/ubuntu/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ubuntu/.local/bin:/home/ubuntu/drone/apm/ardupilot/Tools/autotest'), ('SESSION_MANAGER', 'local/ubuntu-2204:@/tmp/.ICE-unix/1785,unix/ubuntu-2204:/tmp/.ICE-unix/1785'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e12b700f_32dd_4d6e_bb2b_0c20e4044ccc'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8W2ME3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/LRS-FEI/build/prehladavaci_algoritmus'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=f326f8390f1776cbeb1eea3668f37286'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/LRS-FEI/nacitanie_mapy/install/pcd_map_loader:/opt/ros/humble')]), 'shell': False}
+[16.987704] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.989684] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[16.991379] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/lib/prehladavaci_algoritmus/planner_node\n'}
+[16.992425] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/lib/prehladavaci_algoritmus/drone_controller\n'}
+[16.993866] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/maps/map.pcd\n'}
+[16.994299] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/ament_index/resource_index/package_run_dependencies/prehladavaci_algoritmus\n'}
+[16.995635] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/ament_index/resource_index/parent_prefix_path/prehladavaci_algoritmus\n'}
+[16.996519] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/environment/ament_prefix_path.sh\n'}
+[16.998239] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/environment/ament_prefix_path.dsv\n'}
+[16.998595] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/environment/path.sh\n'}
+[16.998760] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/environment/path.dsv\n'}
+[16.998832] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/local_setup.bash\n'}
+[16.998933] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/local_setup.sh\n'}
+[16.999048] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/local_setup.zsh\n'}
+[16.999111] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/local_setup.dsv\n'}
+[16.999171] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/package.dsv\n'}
+[17.034851] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/ament_index/resource_index/packages/prehladavaci_algoritmus\n'}
+[17.035215] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/cmake/prehladavaci_algoritmusConfig.cmake\n'}
+[17.035364] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/cmake/prehladavaci_algoritmusConfig-version.cmake\n'}
+[17.036051] (prehladavaci_algoritmus) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/LRS-FEI/install/prehladavaci_algoritmus/share/prehladavaci_algoritmus/package.xml\n'}
+[17.038088] (-) TimerEvent: {}
+[17.051480] (prehladavaci_algoritmus) CommandEnded: {'returncode': 0}
+[17.131108] (prehladavaci_algoritmus) JobEnded: {'identifier': 'prehladavaci_algoritmus', 'rc': 0}
+[17.133918] (-) EventReactorShutdown: {}

@@ -8,6 +8,8 @@ find_package(geometry_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(pcl_conversions REQUIRED)
 find_package(pcl_ros REQUIRED)
+find_package(tf2 REQUIRED)
+
 
 # pridaj všetky cpp súbory, ktoré tvoria planner
 add_executable(planner_node
@@ -22,7 +24,7 @@ ament_target_dependencies(planner_node
 
 # drone controller node
 add_executable(drone_controller src/drone_controller.cpp)
-ament_target_dependencies(drone_controller rclcpp geometry_msgs)
+ament_target_dependencies(drone_controller rclcpp geometry_msgs tf2)
 
 install(TARGETS
   planner_node
